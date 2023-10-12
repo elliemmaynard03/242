@@ -1,11 +1,12 @@
 
 
 body{
-    background-color: #000000;
+    background-color: #ffffff;
+    margin: 0;
 }
 /* NAVBAR */
 #navbar {
-    background-color: #000000;
+    background-color: #5d3427;
     top: 0;
     width: 100%;
     text-align: center;
@@ -18,19 +19,19 @@ body{
 /*navbar links*/
 #navbar a {
     display: inline-block;
-    color: #D4AF37;
+    color: #ffffff;
     padding: 14px 40px;
     text-decoration: none;
     margin-left: 0px;
-    border: 1px solid #D4AF37;
+    border: 1px solid #ffffff;
     border-radius: 9px;
     width: 80%;
     margin-bottom: 5px;
 }
 /*mouse hover animation on navbar*/
 #navbar a:hover {
-    background: #D4AF37;
-    color: black;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     border-radius: 9px;
 }
 .hide-small {
@@ -48,7 +49,11 @@ body{
 /* END OF NAVBAR */
 
 
-
+#image2{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+}
 
 .content-box {
     background: rgba(0, 0, 0, 0.7);
@@ -70,7 +75,7 @@ body{
 
 /* BOOKINGS PAGE */
 .background-bookings {
-    background: url("image1.jpg");
+    background: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -80,13 +85,24 @@ body{
 }
 
 .parallax{
-    background-image: url("image1.jpg");
-    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax2{
+    min-height: 500px;
+    background-image: url("background.jpg");
+}
+.parallax3{
+    min-height: 400px;
+    background-image: url("dog.jpg");
+}
+.parallax4{
+    min-height: 400px;
+    background-image: url("dog2.jpg");
+}
+
 /* LARGE SCREEN */
 @media only screen and (min-width: 768px) {
     #navbar li {
@@ -95,7 +111,7 @@ body{
     }
     .columns {
         display: flex;
-        column-gap: 1%;
+        column-gap: 5px;
     }
     .col1of5 {
         flex: 1;
